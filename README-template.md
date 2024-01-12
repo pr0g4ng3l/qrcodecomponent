@@ -41,7 +41,7 @@ I learned how to work with variables in CSS.
 
 ### Continued development
 
-I would like to continue learning and reforcing the position property and how to center a div vertically.
+I would like to continue learning and reinforcing the position property and how to center a div vertically.
 
 ### Useful resources
 
