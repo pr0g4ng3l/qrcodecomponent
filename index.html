@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    :root {
+      --white-color: hsl(0, 0%, 100%);
+      --light-gray-color: hsl(212, 45%, 89%);
+      --grayish-blue-color: hsl(220, 15%, 55%);
+      --dark-blue-color: hsl(218, 44%, 22%);
+    }
+
+    .attribution { font-size: 11px; text-align: center;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    html {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: var(--light-gray-color);
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .card {
+      width: 18rem;
+      height: 28rem;
+      background-color: var(--white-color);
+      border-radius: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+    }
+
+    .card img {
+      width: 16rem;
+      height: 16rem;
+      border-radius: 1rem;
+      margin-top: 1rem;
+    }
+
+    .main-text {
+      text-align: center;
+      width: 80%;
+    }
+
+    .main-text h4 {
+      font-size: 1.2rem;
+      color: var(--dark-blue-color);
+      font-weight: 700;
+      margin: 1.1rem 0;
+    }
+
+    .secondary-text {
+      text-align: center;
+      width: 85%;
+    }
+
+    .secondary-text p {
+      font-size: 15px;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <img src="images/image-qr-code.png" alt="qr code">
+      <div class="main-text">
+        <h4>Improve your front-end skills by building projects</h4>
+      </div>
+      <div class="secondary-text">
+        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div>
+    </div>
+    
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Angel Henriquez</a>.
+    </div>
+  </div>
+</body>
+</html>
