@@ -49,6 +49,6 @@ I would like to continue learning and reinforcing the position property and how 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@ProgrAngel](https://www.frontendmentor.io/profile/pr0g4ng3l)
 - Instagram - [@angel_http404](https://www.instagram.com/angel_http404/)
 - Linkedin - [Angel Ivan Henríquez Martínez](https://www.linkedin.com/in/angel-ivan-henr%C3%ADquez-mart%C3%ADnez-16a6b6218/)
